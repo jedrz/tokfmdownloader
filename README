@@ -1,0 +1,10 @@
+Skrypt pobiera pliki mp3 (podcasty) z radia TOK FM
+
+Pliki są zapisywane w formacie: przedrostek-data, np.
+ekg-05_02_03.mp3
+
+Użycie:
+    tokfmdownloader.py <adres do rss> <ścieżka do zapisu plików> <przedrostek>
+    przedrostek oznacza jak ma się nazywać początek pobieranych nazw
+    plików (nie trzeba podawać myślnika na końcu - zostanie
+    automatycznie dodany)
